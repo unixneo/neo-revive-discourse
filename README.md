@@ -14,7 +14,7 @@ https://github.com/discourse/discourse-adplugin
 
 **Authors**: [Sarah Ni](https://github.com/cyberkoi) & [Vi Nguyen](https://github.com/ladydanger) & [unixneo](https://github.com/unixneo)
 
-**Version**: 1.2.7.5
+**Version**: 1.2.8.0
 
 **Contributors**: See the original repo (link above) for all the prior coders and team
 
@@ -28,6 +28,7 @@ With version 1.2.7.4 can enter both mobile and desktop ads as house ads. Ads wit
 
 ### Version
 
+- Version 1.2.8.0 20 May 2020, Move to new repo, neo-revive-discourse
 - Version 1.2.7.5 20 May 2020, Fix ad randomizer for mobile, paths.
 - Version 1.2.7.4.0 19 May 2020, Added initial code for mobile ads
 - Version 1.2.7.3 19 May 2020, Add "show to admins only" setting for live site testing
