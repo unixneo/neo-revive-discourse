@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# name: discourse-adplugin
+# name: neo-revive-discourse
 # about: A NOT Official Ad Plugin for Discourse 
 # version: 1.2.8.0
 # authors: Vi, Sarah (@ladydanger and @cyberkoi) and Neo
