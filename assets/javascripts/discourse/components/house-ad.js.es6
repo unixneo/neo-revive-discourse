@@ -1,5 +1,7 @@
 import AdComponent from "../components/ad-component";
 import discourseComputed, { observes } from "discourse-common/utils/decorators";
+import { htmlSafe } from "@ember/template";
+
 const adIndex = {
   topic_list_top: null,
   topic_above_post_stream: null,
@@ -99,9 +101,9 @@ export default AdComponent.extend({
       adIndex[placement] = (adIndex[placement] + 1) % filteredAdNames.length;
       if (Discourse.SiteSettings.neo_house_debug) {
         console.log("adIndex[placement]", adIndex[placement]);
-        console.log("ad", ad);
+        console.log("ad", htmlSafe(ad));
       }
-      return ad;
+      return ad.htmlSafe();
     } else {
       return "";
     }
@@ -132,7 +134,7 @@ export default AdComponent.extend({
       return;
     }
 
-    this.set("adHtml", this.chooseAdHtml());
+    this.set("adHtml", htmlSafe(this.chooseAdHtml()));
   },
 
   didInsertElement() {
