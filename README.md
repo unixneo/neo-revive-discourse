@@ -6,8 +6,6 @@ This branch strips out all but "house ads" to use with external ad server (like 
 
 ### Cloned from original, official plugin (avoiding PR errors during WIP):
 
-### Status: Only works with `<iframe>` tags. Need to get this working with `<script>` tags.
-
 ### Starting point for this working code base:
 
 ```
@@ -16,7 +14,7 @@ https://github.com/discourse/discourse-adplugin
 
 **Authors**: [Sarah Ni](https://github.com/cyberkoi) & [Vi Nguyen](https://github.com/ladydanger) & [unixneo](https://github.com/unixneo)
 
-**Version**: 1.2.8.1
+**Version**: 1.2.9.0
 
 **Contributors**: See the original repo (link above) for all the prior coders and team
 
@@ -30,6 +28,7 @@ With version 1.2.7.4 can enter both mobile and desktop ads as house ads. Ads wit
 
 ### Version
 
+- Version 1.2.9.0 20 May 2020, Fixed script tag issue vis-a-vis emberjs.
 - Version 1.2.8.1 20 May 2020, Tried to fix script tag rendering issue with safeHtml(), no joy.
 - Version 1.2.8.0 20 May 2020, Move to new repo, neo-revive-discourse
 - Version 1.2.7.5 20 May 2020, Fix ad randomizer for mobile, paths.
@@ -60,8 +59,7 @@ With version 1.2.7.4 can enter both mobile and desktop ads as house ads. Ads wit
 
 ### TODO
 
-- Fix issue where only iframe tags work, script tags not working.
-- Debug CORS issues with Revive ad server (CORS in general).
+- No open issues at this time.
 
 ### TODO DEAD CODE
 
