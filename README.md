@@ -8,6 +8,8 @@ This branch strips out all but "house ads" to use with external ad server (like 
 
 ### Status: Only works with `<iframe>` tags. Need to get this working with `<script>` tags.
 
+### Starting point for this working code base:
+
 ```
 https://github.com/discourse/discourse-adplugin
 ```
