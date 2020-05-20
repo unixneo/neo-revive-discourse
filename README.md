@@ -1,6 +1,6 @@
 # The NOT Official Discourse Revive Ad Server Plugin by Neo (WIP)
 
-This is the NOT official Discourse ad plugin. It is a WIP by neo@unix.com for development.
+This is the NOT official Discourse ad plugin. It is a WIP for development for serving ad server tags.
 
 This branch strips out all but "house ads" to use with external ad server (like revive, for example) and refines this for use with a single ad server.
 
@@ -28,7 +28,7 @@ With version 1.2.7.4 can enter both mobile and desktop ads as house ads. Ads wit
 
 ### Version
 
-- Version 1.2.8.1 20 May 2020, Tried to fix script tag rendering issue with safeHhml(), no joy.
+- Version 1.2.8.1 20 May 2020, Tried to fix script tag rendering issue with safeHtml(), no joy.
 - Version 1.2.8.0 20 May 2020, Move to new repo, neo-revive-discourse
 - Version 1.2.7.5 20 May 2020, Fix ad randomizer for mobile, paths.
 - Version 1.2.7.4.0 19 May 2020, Added initial code for mobile ads
